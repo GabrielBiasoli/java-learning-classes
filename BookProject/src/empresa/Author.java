@@ -1,4 +1,4 @@
-package empresa;package empresa;
+package empresa;
 
 public class Author {
 	
