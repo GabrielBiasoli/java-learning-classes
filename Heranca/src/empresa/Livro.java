@@ -7,12 +7,11 @@ public class Livro {
 	public float precoVenda;
 	public int paginas;
 	
-	public Livro(String titulo, String autor, int paginas, float custoProducao, float precoVenda) {
+	public Livro() {}
+	
+	public Livro(String titulo, String autor) {
 		this.titulo = titulo;
 		this.autor = autor;
-		this.paginas = paginas;
-		this.custoProducao = custoProducao;
-		this.precoVenda = precoVenda;
 	}
 	
 	public float lucro() {
